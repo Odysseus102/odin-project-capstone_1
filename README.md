@@ -1,1 +1,1 @@
-# odin_project_capstone_1
+# odin-project-capstone-1
