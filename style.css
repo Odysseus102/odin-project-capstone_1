@@ -3,8 +3,32 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+
     
     
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.header > div:first-child   {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links   {
+    display: flex;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
     
 }
 
@@ -15,8 +39,31 @@ body {
     font-family: roboto, "san-sarif";
 
 }
-
+.section-one-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 h1  {
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.second-section  {
+    background-color: #ffffff;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-family: roboto, "san-sarif";
+
+}
+
+img{
+    max-width: 50%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
