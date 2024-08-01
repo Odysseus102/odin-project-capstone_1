@@ -73,10 +73,21 @@ h1  {
 
 }
 
+.section-two-header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-two-imgs   {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     width: 300px;
     height: auto;
-    /* object-fit:contain; */
+    object-fit:contain;
 }
 
 p   {
